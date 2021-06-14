@@ -1,0 +1,428 @@
+*
+{
+    font-family: 'Courier New', Arial, 'Times New Roman';
+    position:relative;
+    margin:auto auto;
+    padding:0px;
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+}
+.top /*nav*/
+{
+    /*
+    max-width:300px;
+    width:300px;
+    left:0px;
+    text-align:center;
+    text-align-last:center;
+    text-orientation:upright;
+    -ms-text-justify: distribute;
+    */
+    font-family:'Courier New',Arial,'Times New Roman';
+    font-size:20pt;
+    display:flex;
+    padding:0px;
+
+    left:00px;
+    width:1200px;
+    max-width:1200px;
+    text-align:center;
+    text-align-last:center;
+    text-orientation:upright;
+    -ms-text-justify: distribute;
+    flex-wrap:wrap;
+    flex-direction:row;
+    flex-flow:row;
+}
+.top a,.top unavailable
+{
+    word-wrap:break-word;
+    text-decoration:none;
+    top:0px;
+    background-color:#000000;
+}
+.top a:hover
+{
+    font-weight:bolder;
+    background-color:#202020;
+}
+.top a:visited /*previously visited links from before load.*/
+{
+    color:green;
+}
+.top a:active /*when mouse click is active on link*/
+{
+    color:yellowgreen;
+}
+.top #_1{width:24%;}
+.top #_2{width:24%;}
+.top #_3{width:24%;}
+.top #_4{width:24%;}
+
+title_element
+{
+    top:10px; /*moves text downwards.*/
+    background-color:blue; /*sets the background color.*/
+    color:red; /*sets the foreground color.*/
+    margin:auto auto;
+    left:0px; /*x units from the left.*/
+    word-wrap:break-word; /*causes text to go down to next line.*/
+    width:1200px; /*defines the width of the inline-block.*/
+    height:auto; /*height changes dynamically with text.*/
+    white-space:normal;
+    display:inline-block; /*makes width and height work. creates a block element.*/
+    text-align:center; /*sets the alignment of the text to the center.*/
+    text-align-last:center;
+    text-justify:center;
+    vertical-align:center;
+    font-size:40px; /*sets the size of the font.*/
+    user-select:none; /*makes text unselectable.*/
+
+    background-image:linear-gradient(to right,#00000000,rgb(158, 158, 130));
+    
+}
+#title_element_1
+{
+    background-image:linear-gradient(to right,#0000DDDD,rgba(0,0,29,221),#0000DDDD);
+}
+#title_element_2
+{
+    background-image:linear-gradient(to right,#00DD00DD,rgba(0,29,0,221),#00DD00DD);
+}
+unavailable
+{
+    color:#CF0000;
+    user-select:none; /*makes text unselectable.*/
+}
+
+.cssgrid
+{
+    left:0px; /*-150px*/
+    display:grid;
+    width:1200px; /*900px*/
+}
+.cssgrid_info
+{
+    top:30px;
+    grid-template-columns:2;
+    grid-template-rows:2;
+    grid-template-areas:'1x1y 1x2y' '2x1y 2x2y' '3x1y 3x2y';
+    grid-gap:0px;
+}
+.cssgrid_projects
+{
+    top:30px;
+    grid-template-columns:3;
+    grid-template-rows:3;
+    grid-template-areas:'1x1y 1x2y 1x3y' '2x1y 2x2y 2x3y' '3x1y 3x2y 3x3y';
+    grid-gap:0px;
+}
+
+cssgrid
+{
+    width:400px;
+    height:400px;
+    color:green;
+    text-align:center;
+    padding-top:0px;
+    word-wrap:break-word;
+    font-size:50px;
+    user-select:none; /*makes text unselectable.*/
+}
+#cssgrid_1
+{
+    grid-area:'1x1y';
+
+    color:orange;
+    width:400px;
+}
+#cssgrid_2
+{
+    grid-area:'1x2y';
+
+    font-family:'Times New Roman',Times,serif;
+    font-size:20px;
+    color:black;
+
+    /*background-image:linear-gradient(to right,#007F00,#00007F,#007F00);*/
+    width:400px;
+    height:400px;
+}
+#cssgrid_3
+{
+    grid-area:'1x3y';
+}
+#cssgrid_4
+{
+    grid-area:'2x1y';
+
+    color:orange;
+}
+#cssgrid_5
+{
+    grid-area:'2x2y';
+
+    font-family:'Times New Roman',Times,serif;
+    font-size:20px;
+    color:black;
+    /*background-color:#CF0000;*/
+}
+#cssgrid_6
+{
+    grid-area:'2x3y';
+}
+#cssgrid_7
+{
+    grid-area:'3x1y';
+
+    color:orange;
+}
+#cssgrid_8
+{
+    grid-area:'3x2y';
+
+    font-family:'Times New Roman',Times,serif;
+    font-size:20px;
+    color:black;
+}
+#cssgrid_9
+{
+    grid-area:'3x3y';
+}
+
+
+
+#cssgrid_1_info
+{
+    grid-area:'1x1y';
+
+    color:orange;
+    width:400px;
+}
+#cssgrid_2_info
+{
+    grid-area:'1x2y';
+
+    font-family:'Times New Roman',Times,serif;
+    font-size:20px;
+    color:black;
+
+    /*background-image:linear-gradient(to right,#007F00,#00007F,#007F00);*/
+    width:400px;
+    height:400px;
+}
+#cssgrid_3_info
+{
+    grid-area:'1x1y';
+
+    color:orange;
+    width:400px;
+}
+#cssgrid_4_info
+{
+    grid-area:'1x2y';
+
+    font-family:'Times New Roman',Times,serif;
+    font-size:20px;
+    color:black;
+
+    /*background-image:linear-gradient(to right,#007F00,#00007F,#007F00);*/
+    width:400px;
+    height:400px;
+}
+
+
+.repos_link
+{
+    word-wrap:break-word;
+    text-decoration:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
+
+
+.AboutMe
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    top:50px;
+    left:50px;
+}
+.AboutMeList
+{
+    color:red;
+    text-decoration:none;
+}
+
+
+footer_text
+{
+    top:0px; /*moves text downwards.*/
+    color:#007FBFCF; /*sets the foreground color.*/
+    margin:auto auto;
+    left:0px; /*x units from the left.*/
+    word-wrap:break-word; /*causes text to go down to next line.*/
+    width:1200px; /*defines the width of the inline-block.*/
+    height:auto; /*height changes dynamically with text.*/
+    white-space:normal;
+    display:inline-block; /*makes width and height work. creates a block element.*/
+    text-align:center; /*sets the alignment of the text to the center.*/
+    text-align-last:center;
+    text-justify:center;
+    vertical-align:center;
+    font-size:12px; /*sets the size of the font.*/
+    user-select:none; /*makes text unselectable.*/
+}
+.centerize
+{
+    top:0px; /*moves text downwards.*/
+    color:#007FBFCF; /*sets the foreground color.*/
+    margin:auto auto;
+    left:0px; /*x units from the left.*/
+    word-wrap:break-word; /*causes text to go down to next line.*/
+    width:1200px; /*defines the width of the inline-block.*/
+    height:auto; /*height changes dynamically with text.*/
+    white-space:normal;
+    display:inline-block; /*makes width and height work. creates a block element.*/
+    text-align:center; /*sets the alignment of the text to the center.*/
+    text-align-last:center;
+    text-justify:center;
+    vertical-align:center;
+    font-size:12px; /*sets the size of the font.*/
+    user-select:none; /*makes text unselectable.*/
+}
+
+
+
+
+
+body
+{
+    max-width:1200px;
+    width:1200px;
+    margin:auto auto;
+    position:relative;
+    left:0px;
+}
+.DisplayScreenshot
+{
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+    width:500px;
+}
+#DisplayScreenshot-1
+{
+    background: right/contain content-box border-box no-repeat
+    url('https://th.bing.com/th/id/Re5315dab56a1fb5df244ae1aa8caadf3?rik=IVHp4D6S0AMZEw&pid=ImgRaw') black;
+}
+#DisplayScreenshot-2
+{
+    background: right/contain content-box border-box no-repeat
+    url('https://th.bing.com/th/id/OIP.pSTXn91_24XfL1WhKG2rcAHaEi?pid=ImgDet&rs=1') black;
+}
+#DisplayScreenshot-3
+{
+    background: right/contain content-box border-box no-repeat
+    url('https://th.bing.com/th/id/OIP.F7AQW2pxgy8-WLEJlNEljwHaE6?pid=ImgDet&rs=1') black;
+}
+.SkillsList
+{
+    color:blue;
+    text-decoration:none;
+}
+.Projects
+{
+    /*
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    */
+    color:purple;
+}
+p_proj
+{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:white;
+}
+.Footer
+{
+    color:aqua;
+    font-size:larger;
+    font-kerning:none;
+    font-feature-settings: "frac";
+    font-size:12pt;
+}
+clickable_image
+{
+    user-select:url('https://www.google.com/');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.FlexBox
+{
+    display:flex;
+    padding:20px;
+    border:1px;
+    background-color:red;
+    background:coral;
+    max-width:1000px;
+    max-height:200px;
+    width:100px;
+    height:100px;
+    margin:10px;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    border-style: dotted;
+    flex-direction:column;
+    font-size:8pt;
+}
+.BoxItem1
+{
+    width:57px;
+    order:1;
+}
+.BoxItem2
+{
+    order:3;
+}
+.BoxItem3
+{
+    order:5;
+}
+.BoxItem4
+{
+    order:4;
+}
+.BoxItem5
+{
+    order:2;
+}
